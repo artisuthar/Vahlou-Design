@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vahlou Designs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="/css/style.css">
+  </head>
+<body>
+      
+  <div class="overflow-hidden wrapper">
+    <!-- Carousel -->
+<div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
+
+<!-- Indicators/dots -->
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="0" class="active"></button>
+  <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="1"></button>
+  <button type="button" data-bs-target="#my-carousel" data-bs-slide-to="2"></button>
+</div>
+
+<!-- The slideshow/carousel -->
+<div class="carousel-inner">
+<div class="carousel-item active">
+  <div class="wrapper-carousel">
+    <img src="/images/pexels-vecislavas-popa-1571460.jpg" class="d-block img-fluid" style="width:100%;">
+  </div>
+  <div class="carousel-caption quote-text">
+     <h3>Inspiration for home interior designs</h3>      
+    <div class="carousel-book-btn">
+      <a href="service.html" class="btn btn-lg text-decoration-none">READ MORE</a>
+    </div>
+  </div>
+</div>
+<div class="carousel-item">
+  <div class="wrapper-carousel">
+    <img src="/images/kit4.webp" alt="Chicago" class="d-block" style="width:100%">
+  </div>
+  <div class="carousel-caption quote-text">
+    <h3>Every great Designs begins with an even better story</h3>       
+    <div class="carousel-book-btn">
+     <a href="service.html" class="btn btn-lg text-decoration-none">READ MORE</a>
+    </div>
+  </div> 
+</div>
+<div class="carousel-item">
+  <div class="wrapper-carousel">
+    <img src="/images/hall11.webp" alt="New York" class="d-block" style="width:100%">
+  </div>
+  <div class="carousel-caption quote-text">
+    <h3>Come say hi to beautiful interiors</h3>       
+    <div class="carousel-book-btn">
+     <a href="service.html" class="btn btn-lg text-decoration-none">READ MORE</a>
+    </div>
+  </div>  
+</div>
+</div>
+
+<!-- Left and right controls/icons -->
+<button class="carousel-control-prev" type="button" data-bs-target="#my-carousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#my-carousel" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
+  <nav class="navbar navbar-expand-lg fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" style="color:#DADD98; font-size: 30px;" href="#">
+      <img src="/images/vd logo7.png" style="height:100px; width:180px;">Vahlou Design</a>
+      <!--navbar-toggler btn-->
+      <button class="navbar-toggler shadow-none border-0"  style="background-color:#DADD98; color:#000000;"
+      type="button" data-bs-toggle="offcanvas"
+       data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--sidebar body-->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+            <img src="/images/vd logo7.png" style="height:100px; width:180px;">
+            Vahlou Design</h5>
+          <button type="button" 
+          class="btn-close btn-close-white" 
+          data-bs-dismiss="offcanvas" 
+          aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body py-4">
+          <ul class="navbar-nav justify-content-center 
+          align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active text-white" aria-current="page" 
+              href="#target">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="service.html">Service</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="gallary.html">Gallary</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+   <!--get button--> 
+          <div class="d-flex flex-column justify-content-center
+          align-items-center gap-3">
+            <a href="#" type="button" class="btn btn-lg text-white text-decoration-none px-3 py-1
+            rounded-4" style="background-color:DADD98;"
+            data-bs-toggle="modal" data-bs-target="#getModal">GET IN TOUCH</a>
+          </div>   
+        </div>
+      </div>
+    </div>
+  </nav> 
+</div>
+<!--navbar ends here-->  
+<!-- Modal -->
+<div class="modal fade" id="getModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <h5 class="text-center modal-title fw-bold" id="exampleModalLabel">Talk to a Designer</h5>
+  
+            <div class="form-group mb-3">
+              <input type="name" class="form-control form-control-lg py-2"  placeholder="Name">
+            </div>
+            <div class="form-group mb-3">
+              <input type="email" class="form-control form-control-lg py-2" placeholder="Email ID">
+            </div>
+            <div class="form-group mb-3">
+              <input type="phone" class="form-control form-control-lg py-2"  placeholder="Phone">
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Send me updates on Whatsapp</label>
+            </div>
+            <div class="form-group mb-3">
+              <input type="text" class="form-control form-control-lg py-2"  placeholder="Property Name">
+            </div>
+            <button type="submit" class="btn btn-lg" style="background:#DADD98; width:100%">GET FREE QUOTE</button>
+            <div class="mt-2 mb-2">
+              By submitting this form, you agree to the <label style="color:red">privacy policy</label> & <label style="color:red">terms and conditions</label>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--about section start-->
+<section id="about">
+  <div class="container py-5">
+    <div class="about-data">
+      <p class="mx-5 pb-2">MY GOAL IS TO FULFILL MY CLIENT’S VISION FOR A SPACE BY CREATING A COMFORTABLE ENVIRONMENT THAT INVITES AND INSPIRES.
+         I’VE WORKED CLOSELY WITH CLIENTS FOR OVER 8 YEARS, BRINGING EXPERTISE AND PASSION THAT BRINGS THEIR VISION TO LIFE.
+      </p>
+      <div class="text-center mb-5">
+        <img src="images/logo1.png">
+    </div>
+    </div>
+   <h3 class="pb-2">Professional Interior Designer in Pune.</h3>
+   <span class="about-blog text-left py-5">
+       Interior design is the harmonious fusion of science and art that come together to ignite the senses and calm the mind. Improve personal and public spaces by reducing the busy clutter and transforming your environment into a haven.
+       Well-designed spaces can have a positive impact on the heart and mind.
+      In a city that receives more than Thousand visitors per year, Interior design in Orlando has become more and more necessary. Not only does it transform the home into a place of peace and serenity, but it can also create an inviting business environment to draw customers in.
+   </span>
+  </div>
+</section>
+<!--about-end-->
+<!--Gallary-->
+<section id="gallary">
+  <div class="container">
+    <div class="gallary-text">
+      <h2 class="pt-5 pb-3 text-center">One-stop shop for all things interiors</h2>
+      <p>Be it end-to-end interiors, renovation or modular solutions,
+         we have it all for your home or office. With a wide range 
+        of furniture & decor, we have your back from start to finish.</p>
+    </div>
+    <div class="row gallary-image py-4">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="card">
+          <img class="card-img-top" src="/images/kit2.webp" alt="Card image cap">
+          <div class="card-body text-center">
+            <h5 class="card-title">Modular Interiors</h5>
+            <p class="card-text">Functional Kitchen, wardrobe and storage</p>
+            </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card">
+        <img class="card-img-top" src="/images/hall12.webp" alt="Card image cap">
+        <div class="card-body text-center">
+          <h5 class="card-title">Full Home Interiors</h5>
+          <p class="card-text">Turnkey interior solutions for your home</p>
+          </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="card">
+      <img class="card-img-top" src="/images/hall13.webp" alt="Card image cap">
+      <div class="card-body text-center">
+        <h5 class="card-title">Luxury Interiors</h5>
+        <p class="card-text">Tailored interiors that redefine elegence</p>
+        </div>
+    </div>
+  </div>
+  <div class="item">
+    <div class="card">
+    <img class="card-img-top" src="/images/renovation.jpg" alt="Card image cap">
+    <div class="card-body text-center">
+      <h5 class="card-title">Renovations</h5>
+      <p class="card-text">Expert solutions to upgrade your beautiful home</p>
+      </div>
+  </div>
+</div>
+<div class="item">
+  <div class="card">
+  <img class="card-img-top" src="/images/hall14.webp" alt="Card image cap">
+  <div class="card-body text-center">
+    <h5 class="card-title">Commercial Interiors</h5>
+    <p class="card-text">Hassle-Free Solutuions for your workspace</p>
+    </div>
+</div>
+</div>
+<div class="item">
+  <div class="card">
+  <img class="card-img-top" src="/images/hall12.webp" alt="Card image cap">
+    <div class="card-body text-center">
+      <h5 class="card-title">Furniture & decore</h5>
+      <p class="card-text">Exceptional products to amp up your space</p>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="owl-prev"></div>
+    <div class="owl-next"></div>
+  </div>
+  </div>
+</section>
+
+<!--Gallary ends-->
+<article id="Inspiration" class="pb-5 mb-2">
+  <div class="container">
+    <div class="inspire-text py-4">
+      <h1>Inspiration for home interior deigns</h1>
+      <p>Give your home a new look with these interior design ideas curated for you</p>
+      <a href="gallary.html" class="more-reviews text-decoration-none"
+      style="text-decoration: none; margin-top:-30px;">View More ></a>
+    </div>
+  <div class="inspire-pic">
+    <div class="row d-flex mb-1">
+      <div class="col-md-6 col-sm-12 g-0">
+        <img src="/images/living room4.jpeg">
+        <div class="inspire-label transparent">
+          <h5>Living room</h5>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <img src="/images/bedroom image1.jpeg">
+        <div class="inspire-label transparent">
+          <h5>Master Bedroom</h5>
+        </div>
+      </div>
+      <div class="col-md-3 g-0">
+        <img src="/images/Meerkat 2.webp">
+        <div class="inspire-label transparent">
+          <h5>False Cieling</h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex mt-2">
+      <div class="col-md-3 g-0">
+        <img src="/images/Ronda 3 seater sofa.webp">
+        <div class="inspire-label transparent">
+          <h5>Homes By Vahlou Design</h5>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="/images/kit1.webp">
+        <div class="inspire-label transparent">
+          <h5>Kitchen</h5>
+        </div>
+      </div>
+      <div class="col-md-3 g-0">
+        <img src="/images/Kitchen.webp">
+        <div class="inspire-label transparent">
+          <h5>Wardrobe</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</article>
+<!--inspiration ends here -->
+<!-- why choose us-->
+<section id="why-choose-us">
+  <div class="container py-5">
+    <h2 class="text-center fw-bold">Why choose us</h2>
+       <div class="row">
+        <div class="col-md-2">
+           <div class="card why-card text-center">
+            <img src="/images/hall.webp" class="card-img-top image-fluid">
+            <div class="card-body">
+              <p>Expert Interior</p>
+            </span>Designers</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card why-card text-center">
+            <img src="/images/ki4.webp" class="card-img-top image-fluid">
+            <div class="card-body">
+              <p class="card-text">Clear and Transparent</p>
+              <span>Communication</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card why-card text-center">
+            <img src="/images/hall3.webp" class="card-img-top image-fluid">
+            <div class="card-body">
+              <p class="card-text">Professional</p>
+              <span>Affiliations</span> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card why-card text-center">
+            <img src="/images/hall4.webp" class="card-img-top image-fluid">
+            <div class="card-body text-center">
+              <p class="card-text">1000+ Happy</p>
+            </span>Customers</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card why-card text-center">
+            <img src="/images/Hopscotch Storage 02.webp" class="card-img-top image-fluid">
+            <div class="card-body text-center">
+              <p class="card-text">Vastu</p>
+            </span>Expertise</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card why-card text-center">
+            <img src="/images/city.jpeg" class="card-img-top image-fluid">
+            <div class="card-body">
+              <p class="card-text">8 year's in business</p>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+</section>
+<!--why ends-->
+
+<section id="reviews" class="py-5">
+  <div class="container">
+    <div class="reviews-heading fw-bolder d-flex pb-4">
+      <h2>Check out some of our customer reviews</h2>
+      </div>
+    <div class="reviews-cards">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="card text-center">
+            <img class="card-img-top py-1" src="/images/emp1.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Mr. Basavraj and Ms Tanushri</h5>
+              <p class="card-text">
+                Thanks team, we appreciate the involvement of each and every member in our project that lead
+                 to flawless interiors for our dream home
+              </p>
+                <div class="review-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+            </div>
+          </div>
+        </div>       
+        <div class="col-md-4 col-sm-6">
+          <div class="card text-center">
+            <img class="card-img-top py-1" src="/images/emp2.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Mr. And Mrs. Shashikant and Vaibhavi Patil</h5>
+              <p class="card-text">
+                We wanted the team to understand our requirements for ETHNIC INTERIORS, the Vahlou Designs team understood it well and delivered in a very stiff schedule</p>
+                <div class="review-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+            </div>
+          </div>
+        </div>       
+        <div class="col-md-4 col-sm-6">
+          <div class="card text-center">
+            <img class="card-img-top py-1" src="/images/emp3.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Mr. Jai Deshmukh</h5>
+              <p class="card-text">
+                Team's understanding of designing, material knowledge and large network of vendors and contractors made our project successful</p>
+                <div class="review-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+</section>
+<!--Reviews ends here-->
+<!--Glimps start-->
+<section id="glimps">
+  <div class="container py-5">
+    <div class="pb-2">
+      <h2>Get a glimpse of Vahlou Design homes</h2>
+      <div class="row">
+        <div class="col-md-9">
+          <p class="fs-5">Latest dream home interiors delivered the hassle-free way</p>
+        </div>
+        <div class="col-md-3">
+          <button type="button" class="btn btn-lg get-btn ms-auto">GET FREE QUOTE</button>
+        </div>
+      </div>
+     </div>
+    <div class="glimps-pic d-flex py-2">
+      <div class="col-md-4 col-sm-12">
+        <img src="/images/hall14.webp">
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="/images/hall12.webp">
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="/images/hall15.webp">
+      </div>
+    </div>
+  </div>
+</section>
+<!--Glimps ends-->
+<!--the faqs-->
+<article id="faqs">
+  <div class="container py-5 design-faqs">
+    <h2>FAQs About Home Interior Design</h2>
+    <div class="row pt-3">
+      <div class="col-md-12">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                1. Why do I need an interior designer?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                You can think of an interior designer as a film director. Their job is to monitor every minute detail from start to the final cut. From pre-production to the final edit, their perspective is responsible for shaping the final product. Similarly, interior designers are professionals who are able to gauge your needs and tastes to deliver your dream home. They assist you in getting custom-designed pieces that fit perfectly into your beautiful vision. From raw materials to finished products, they take care of everything!
+                <br><br>
+                To chat with the top interior designers in India, you can either visit a Vahlou Design Experience Centre in your city or fill out the lead form. You can also browse through the bedroom, living room and kitchen interior design images on our website for inspiration.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2. Why is Vahlou Design perfect for your home interior design?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Vahlou Design is the perfect partner who can build your home interiors just the way you want! Our design experts customize designs as per your needs. They will listen to your ideas and suggest options. At Vahlou Design, we incorporate advanced technology into our modular solutions to create flawless interiors and also to expedite the process of making your dream home a reality. So, book your consultation today with India's Most Trusted Home Interiors Brand, Vahlou Design and talk to our designers about your project.</div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3.What services are included under home interior design?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Vahlou Design is a one-stop destination to seek the best interior designers who will help you design the home of your dreams. We are an interior design company that takes care of the design, delivery and installation of interiors for various spaces. That is not all. When you book home interiors with us, we offer end to end services that include modular interiors, installation of false ceilings, civil work, painting, electrical work, plumbing services, flooring and tiling. Whether you want to design your new space or renovate the existing one, we've got you covered.
+                Get some inspiration by browsing the latest kitchen, living room, and bedroom interior designs to kickstart your home interior journey with Vahlou Design.  
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                4. How much does home interiors cost?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The cost of interior design services varies as per the size of the home, materials you choose and the scope of work. Here is the basic cost list for different types of homes to help you plan your budget.
+                Following are the standard costs for the respective types of project:
+                1 BHK - Starting at 1.99L*
+                2 BHK - Starting at 3.57L*
+                3 BHK - Starting at 4.23L*
+                4 BHK - Starting at 4.81L*
+                Modular Kitchens - Starting at 1.32L*
+                *The prices include only modular interiors for new homes.
+                At Vahlou Design, we create bedroom, tv unit design, modular kitchen, kids' room, balcony and living room interior designsfor every budget, so be assured that you will be able to create the space you have always dreamt for. Book a consultation today to find out more.  
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                5. What will be the timelines for my project completion?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                We deliver our promise of a 45-day Move-in Guarantee. This implies that all the modular solutions will be installed and you can move in to your home within the defined timeframe of 45-days. For full home interiors, we take 90 days to complete your interior design project.
+                <br><br>
+                However, the completion timeline may vary from project to project. Factors such as material availability, customer feedback, design approvals, site readiness, etc., play an important role in determining the timeline. Please note that conditions may apply to the guarantee and the project timelines.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-3">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                6. What are the trending interior design styles?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Here's a curated list of top interior design styles in India that you should watch out for when designing your dream home.
+                1. Bohemian Style
+                2. Modern Style
+                3. Colonial Style
+                4. Indian Traditional
+                5. Art Deco Style
+                6. Industrial Interior Design
+                7. Minimalist Interior Design
+                8. Scandinavian Interior Design  
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</article>
+<!--the faqs ends-->
+<!--dream home-->
+<section id="dream-click">
+  <div class="container py-5">
+    <h2 class="text-center pt-5 pb-3">Your dream home is just a click away</h2>
+    <a href="contact.html" class="btn btn-lg btn-danger text-bold get-btn1">GET STARTED</a>  
+  </div>
+ </section>
+ <!--notes-->
+ <article id="notes">
+  <div class="container pt-5 pb-3 note">
+    <p>*For renovation projects, the booking amount will be 15% of the final quote or Rs.25,000 (whichever is higher)</p>
+    <p>Note: For new home interiors, a site measurement fee on the final quote will be charged. This will be
+       adjusted against your project value when we raise the sales order.</p>
+  </div>
+ </article>
+ <!--Footer starts -->
+<footer id="footer">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-md-3">
+        <h1 class="pb-1">Vahlou Designs</h1>
+        <img src="/images/vd logo6.png" style="height:100px; width:280px;">
+        <div class="social-media d-flex">
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-solid fa-envelope"></i></a>
+      <!--
+  <div class="social-media py-2">
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      --> </div>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>SERVICES</h2>
+        <p><a href="#target" class="text-decoration-none text-white">Home</a></p>
+        <p><a href="#about" class="text-decoration-none text-white">About Us</a></p>
+        <p><a href="#contact.html" class="text-decoration-none text-white">Contact Us</a></p>
+        <p><a href="#inspiration" class="text-decoration-none text-white">Projects</a></p>
+        <p><a href="service.html" class="text-decoration-none text-white">Our Service</a></p>
+        <p><a href="#reviews" class="text-decoration-none text-white">Reviews</a></p>
+        <p><a href="#faqs" class="text-decoration-none text-white">FAQ's</a></p>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>ADDRESS</h2>
+        <p style="margin-right: 80px;">Opp, Aakashganga Rd, above shakti super shoppee, Shivraj Nagar, 
+          Rahatani, Pune, Pimpri-Chinchwad, Maharashtra 411017</p>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>BUSINESS HOURS</h2>
+        <p>MON&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>TUE&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>WED&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>THU&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>FRI &nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>SAT&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>SUN&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;Closed </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ <!--Footer ends here -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+</script>
+</body>
+</html>

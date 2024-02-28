@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vahlou Designs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="/css/style.css">
+  </head>
+<body>
+     
+  <nav class="navbar navbar-expand-lg fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" style="color:#DADD98; font-size: 30px;" href="#">
+        <img src="/images/vd logo7.png" style="height:100px; width:180px;">Vahlou Design</a>
+      <!--navbar-toggler btn-->
+      <button class="navbar-toggler shadow-none border-0" 
+      type="button" data-bs-toggle="offcanvas"
+       data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--sidebar body-->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Vahlou Design</h5>
+          <button type="button" 
+          class="btn-close btn-close-white" 
+          data-bs-dismiss="offcanvas" 
+          aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body py-4">
+          <ul class="navbar-nav justify-content-center 
+          align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active text-white"
+              href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="index.html">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="service.html">Service</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="gallary.html">Gallary</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="index.html">Reviews</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+   <!--get button--> 
+          <div class="d-flex flex-column justify-content-center
+          align-items-center gap-3">
+          <a href="#" type="button" class="btn btn-lg text-white text-decoration-none px-3 py-1
+          rounded-4" style="background-color:DADD98;"
+          data-bs-toggle="modal" data-bs-target="#getModal">GET IN TOUCH</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav> 
+  <!--navbar ends here -->
+   <!-- Modal -->
+<div class="modal fade" id="getModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <h5 class="text-center modal-title fw-bold" id="exampleModalLabel">Talk to a Designer</h5>
+  
+            <div class="form-group mb-3">
+              <input type="name" class="form-control form-control-lg py-2"  placeholder="Name">
+            </div>
+            <div class="form-group mb-3">
+              <input type="email" class="form-control form-control-lg py-2" placeholder="Email ID">
+            </div>
+            <div class="form-group mb-3">
+              <input type="phone" class="form-control form-control-lg py-2"  placeholder="Phone">
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Send me updates on Whatsapp</label>
+            </div>
+            <div class="form-group mb-3">
+              <input type="text" class="form-control form-control-lg py-2"  placeholder="Property Name">
+            </div>
+            <button type="submit" class="btn btn-lg" style="background:#DADD98; width:100%">GET FREE QUOTE</button>
+            <div class="mt-2 mb-2">
+              By submitting this form, you agree to the <label style="color:red">privacy policy</label> & <label style="color:red">terms and conditions</label>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--contact code starts-->
+      <section id="contact">
+        <div class="contact-image">
+            <img src="/images/hall6.webp">
+        </div>
+        <div class="contact-heading">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="container contact-data">
+            <div class="row">
+                <h2 class="text-center py-5">REACH US</h2>
+                <div class="col-md-4 ">
+                    <h3 class="pb-3"><i class="fa fa-location-dot"></i>&nbsp;ADDRESS:</h3>
+                    <p class="fs-5"> Opp, Aakashganga Rd, above shakti super shoppee, Shivraj Nagar, 
+                        Rahatani, Pune, Pimpri-Chinchwad, Maharashtra 411017</p>
+                    <h3><i class="fa-sharp fa-solid fa-clock"></i>&nbsp;OUR HOURS:</h3>
+                    <p class="fs-5">10.00 AM - 7.00 PM</p>
+                    <p class="fs-5">Monday - Saturday</p>
+                    <p class="fs-5">Sunday: Closed</p>   
+                    
+                    <h3><i class="fa-sharp fa-solid fa-phone"></i>&nbsp;PHONE NUMBER:</h3>    
+                    <p class="fs-5">09156174747</p>
+                    
+                    <h3><i class="fa-sharp fa-solid fa-envelope"></i>&nbsp;EMAIL:</h3>
+                    <p class="fs-5">111gautamsutar@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                        <div class="form-group contact-form">
+                         <input type="text" class="form-control form-control-lg" placeholder="Enter Name">
+                         <input type="text" class="form-control form-control-lg my-3" placeholder="Your Email">
+                         <input type="text" class="form-control form-control-lg my-3" placeholder="Your Phone">
+                         <input type="text" class="form-control form-control-lg" placeholder="Your Address/City">
+                        </div>
+                      </form>
+                </div>
+                <div class="col-md-4 contact-form">
+                    <textarea class="form-control form-control-lg py-3" rows="5" placeholder="Message*"></textarea>
+                    <a href="#" role="button" class="btn btn-lg w-100 contact-btn my-2 ">Send Message</a>    
+                </div>            
+            </div><!--first row ends-->
+            <div class="row">
+                <div class="col-md">
+                    <div class="location-map-info py-5">
+                        <h2 class="text-center">Location</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.4330993472345!2d73.78251007423935!3d18.599579766757977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b91a2d4d00af%3A0x8d29b7bc38669012!2sVahlo%C3%BC%20designs!5e0!3m2!1sen!2sin!4v1707159506747!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+     
+<!--Footer starts -->
+<footer id="footer">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-md-3">
+        <h1 class="pb-3">Vahlou Designs</h1>
+        <div class="social-media d-flex">
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-solid fa-envelope"></i></a>
+      <!--
+  <div class="social-media py-2">
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      --> </div>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>SERVICES</h2>
+        <p><a href="index.html" class="text-decoration-none text-white">Home</a></p>
+        <p><a href="#about" class="text-decoration-none text-white">About Us</a></p>
+        <p><a href="#" class="text-decoration-none text-white">Contact Us</a></p>
+        <p><a href="#inspiration" class="text-decoration-none text-white">Projects</a></p>
+        <p><a href="service.html" class="text-decoration-none text-white">Our Service</a></p>
+        <p><a href="#reviews" class="text-decoration-none text-white">Reviews</a></p>
+        <p><a href="#faqs" class="text-decoration-none text-white">FAQ's</a></p>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>ADDRESS</h2>
+        <p style="margin-right: 80px;">Opp, Aakashganga Rd, above shakti super shoppee, Shivraj Nagar, 
+          Rahatani, Pune, Pimpri-Chinchwad, Maharashtra 411017</p>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>BUSINESS HOURS</h2>
+        <p>MON&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>TUE&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>WED&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>THU&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>FRI &nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>SAT&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>SUN&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;Closed </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ <!--Footer ends here -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vahlou Designs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+<body>
+    
+  <nav class="navbar navbar-expand-lg fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" style="color:#DADD98; font-size:30px;" href="#">
+        <img src="/images/vd logo7.png" style="height:100px; width:180px;">Vahlou Design</a>
+      <!--navbar-toggler btn-->
+      <button class="navbar-toggler shadow-none border-0" 
+      type="button" data-bs-toggle="offcanvas"
+       data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--sidebar body-->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Vahlou Design</h5>
+          <button type="button" 
+          class="btn-close btn-close-white" 
+          data-bs-dismiss="offcanvas" 
+          aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body py-4">
+          <ul class="navbar-nav justify-content-center 
+          align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link active text-white"
+              href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="index.html">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="service.html">Service</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="#">Gallary</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="index.html">Reviews</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+   <!--get button--> 
+          <div class="d-flex flex-column justify-content-center
+          align-items-center gap-3">
+          <a href="#" type="button" class="btn btn-lg text-white text-decoration-none px-3 py-1
+          rounded-4" style="background-color:DADD98;"
+          data-bs-toggle="modal" data-bs-target="#getModal">GET IN TOUCH</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav> 
+  <!--navbar ends here -->
+   <!-- Modal -->
+<div class="modal fade" id="getModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <h5 class="text-center modal-title fw-bold" id="exampleModalLabel">Talk to a Designer</h5>
+  
+            <div class="form-group mb-3">
+              <input type="name" class="form-control form-control-lg py-2"  placeholder="Name">
+            </div>
+            <div class="form-group mb-3">
+              <input type="email" class="form-control form-control-lg py-2" placeholder="Email ID">
+            </div>
+            <div class="form-group mb-3">
+              <input type="phone" class="form-control form-control-lg py-2"  placeholder="Phone">
+            </div>
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Send me updates on Whatsapp</label>
+            </div>
+            <div class="form-group mb-3">
+              <input type="text" class="form-control form-control-lg py-2"  placeholder="Property Name">
+            </div>
+            <button type="submit" class="btn btn-lg" style="background:#DADD98; width:100%">GET FREE QUOTE</button>
+            <div class="mt-2 mb-2">
+              By submitting this form, you agree to the <label style="color:red">privacy policy</label> & <label style="color:red">terms and conditions</label>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--gallary code starts-->
+<section id="mygallary">
+    <div class="our-service-img">
+        <img src="/images/hall6.webp">
+    </div>
+    <div class="service-box py-3">
+      <h2 class="fs-2">Gallary</h2>
+      <p class="mx-3 fs-5">Vahlou Design result in rich environments defined by sophisticated color palettes,
+         refined materials, and the detailing that tailors interiors
+         to the sensibility you want.
+      </p>
+    </div> 
+    <div class="gallary-content mt-5">
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="gallary-btn">
+                <button class="btn btn-default filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="residential">Residential</button>
+                <button class="btn btn-default filter-button" data-filter="commercial">Commercial</button>
+                <button class="btn btn-default filter-button" data-filter="hospitality">Hospitality</button>
+                <button class="btn btn-default filter-button" data-filter="rennovation">Rennovation</button>
+              </div>
+            </div>
+          </div>
+            <div class="row pt-2 pb-5">
+              <div class="gallary-product col-md-3 filter center residential">
+                <div class="parent-gallary">
+                  <img src="/images/hall.webp">
+                </div>
+              </div>
+              <div class="gallary-product col-md-3 filter center commercial">
+                <div class="parent-gallary">
+                  <img src="/images/hall3.webp">
+                </div>
+              </div>
+              <div class="gallary-product col-md-3 filter center rennovation">
+                <div class="parent-gallary">
+                  <img src="/images/renovation.jpg">
+                </div>
+              </div>
+              <div class="gallary-product col-md-3 filter center hospitality">
+                <div class="parent-gallary">
+                  <img src="/images/kit1.webp">
+                </div>
+              </div>
+              <!-- row 1 completed-->
+              <div class="gallary-product col-md-3 filter center residential">
+                <div class="parent-gallary">
+                  <img src="/images/kitchen1.jpeg">
+                </div>
+              </div>
+              <div class="gallary-product col-md-3 filter center commercial">
+                <div class="parent-gallary">
+                  <img src="/images/office2.jpeg">
+                </div>
+              </div>
+              <div class="gallary-product col-md-3 filter center rennovation">
+                  <div class="parent-gallary">
+                  <img src="/images/renovation2.jpg">
+                </div>
+              </div>
+              <div class="gallary-product col-md-3 filter center hospitality">
+                <div class="parent-gallary">
+                  <img src="/images/hospitality2.jpeg">
+                </div>
+              </div>
+            <!--2nd row completed-->
+            <div class="gallary-product col-md-3 filter center residential">
+              <div class="parent-gallary">
+                <img src="/images/kitchen2.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center commercial">
+              <div class="parent-gallary">
+                <img src="/images/office3.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center rennovation">
+              <div class="parent-gallary">
+                <img src="/images/renovation3.jpg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center hospitality">
+              <div class="parent-gallary">
+                <img src="/images/hospitality3.jpeg">
+              </div>
+            </div>
+            <!--row 3rd completed-->
+            <div class="gallary-product col-md-3 filter center residential">
+              <div class="parent-gallary">
+                <img src="/images/living room4.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center commercial">
+              <div class="parent-gallary">
+                <img src="/images/office4.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center rennovation">
+              <div class="parent-gallary">
+                <img src="/images/renovation4.jpg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center hospitality">
+              <div class="parent-gallary">
+                <img src="/images/store1.jpeg">
+              </div>
+            </div>
+            <!-- row 4th completed-->
+            <div class="gallary-product col-md-3 filter center residential">
+              <div class="parent-gallary">
+                <img src="/images/Allrounder Study Desk.webp">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center commercial">
+              <div class="parent-gallary">
+                <img src="/images/office5.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center rennovation">
+              <div class="parent-gallary">
+                <img src="/images/renovation5.jpg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center hospitality">
+              <div class="parent-gallary">
+                <img src="/images/store2.jpeg">
+              </div>
+            </div>
+            <!--row 5th completed-->
+            <div class="gallary-product col-md-3 filter center residential">
+              <div class="parent-gallary">
+                <img src="/images/living room0.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center commercial">
+              <div class="parent-gallary">
+                <img src="/images/office6.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center rennovation">
+              <div class="parent-gallary">
+                <img src="/images/renovation6.jpg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center hospitality">
+              <div class="parent-gallary">
+                <img src="/images/store6.jpeg">
+              </div>
+            </div>
+            <!--row 6th completed-->
+            <div class="gallary-product col-md-3 filter center residential">
+              <div class="parent-gallary">
+                <img src="/images/living room2.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center commercial">
+              <div class="parent-gallary">
+                <img src="/images/office7.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center rennovation">
+              <div class="parent-gallary">
+                <img src="/images/renovation7.jpg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center hospitality">
+              <div class="parent-gallary">
+                <img src="/images/store7.jpeg">
+              </div>
+            </div>
+            <!-- row 7th completed-->
+            <div class="gallary-product col-md-3 filter center residential">
+              <div class="parent-gallary">
+                <img src="/images/bedroom image1.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center commercial">
+              <div class="parent-gallary">
+                <img src="/images/office8.jpeg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center rennovation">
+              <div class="parent-gallary">
+                <img src="/images/renovation8.jpg">
+              </div>
+            </div>
+            <div class="gallary-product col-md-3 filter center hospitality">
+              <div class="parent-gallary">
+                <img src="/images/store8.jpeg">
+              </div>
+            </div>
+            <!-- row 8th completed-->
+            
+            </div><!--row complted -->
+        </div>
+    </div>
+</section> 
+      
+<!--Footer starts -->
+<footer id="footer">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-md-3">
+        <h1 class="pb-3">Vahlou Designs</h1>
+        <div class="social-media d-flex">
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-twitter"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-solid fa-envelope"></i></a>
+      <!--
+  <div class="social-media py-2">
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-youtube"></i></a>
+          <a href="" class="text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      --> </div>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>SERVICES</h2>
+        <p><a href="index.html" class="text-decoration-none text-white">Home</a></p>
+        <p><a href="#about" class="text-decoration-none text-white">About Us</a></p>
+        <p><a href="#contact.html" class="text-decoration-none text-white">Contact Us</a></p>
+        <p><a href="#inspiration" class="text-decoration-none text-white">Projects</a></p>
+        <p><a href="service.html" class="text-decoration-none text-white">Our Service</a></p>
+        <p><a href="#reviews" class="text-decoration-none text-white">Reviews</a></p>
+        <p><a href="#faqs" class="text-decoration-none text-white">FAQ's</a></p>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>ADDRESS</h2>
+        <p style="margin-right: 80px;">Opp, Aakashganga Rd, above shakti super shoppee, Shivraj Nagar, 
+          Rahatani, Pune, Pimpri-Chinchwad, Maharashtra 411017</p>
+      </div>
+      <div class="col-md-3 footer-links">
+        <h2>BUSINESS HOURS</h2>
+        <p>MON&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>TUE&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>WED&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>THU&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>FRI &nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>SAT&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;10:00 AM TO 7:00 PM </p>
+        <p>SUN&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;&nbsp;Closed </p>
+      </div>
+    </div>
+  </div>
+</footer>
+ <!--Footer ends here -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(document).ready(function()
+    {
+      $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+
+        if(value == 'all')
+      {
+        $('.filter').show('1000');
+      }
+        else 
+      {
+         $('.filter').not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+      }
+      });
+      if($('.filter-button').removeClass('active'))
+      {
+        $(this).removeClass('active');
+      }
+      $(this).addClass('active');
+    });
+  </script>
+  
+</body>
+</html>
