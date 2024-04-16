@@ -75,26 +75,30 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form>
+        <form onsubmit="return validate()">
           <h5 class="text-center modal-title fw-bold" id="exampleModalLabel">Talk to a Designer</h5>
   
             <div class="form-group mb-3">
-              <input type="name" class="form-control form-control-lg py-2"  placeholder="Name">
+              <input type="text" class="form-control form-control-lg py-2" id="name" placeholder="Name">
+              <span style="color:red" id="nameerror"></span>
             </div>
             <div class="form-group mb-3">
-              <input type="email" class="form-control form-control-lg py-2" placeholder="Email ID">
+              <input type="text" class="form-control form-control-lg py-2" id="email" placeholder="Email ID">
+              <span style="color:red" id="emailerror"></span>
             </div>
             <div class="form-group mb-3">
-              <input type="phone" class="form-control form-control-lg py-2"  placeholder="Phone">
+              <input type="text" class="form-control form-control-lg py-2" id="phone" placeholder="Phone">
+              <span style="color:red" id="phoneerror"></span>
             </div>
             <div class="form-check mb-3">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Send me updates on Whatsapp</label>
+              <input type="checkbox" class="form-check-input" id="formCheck1">
+              <label class="form-check-label" for="formCheck1" >Send me updates on Whatsapp</label>
+              <span style="color:red" id="checkerror"></span>
             </div>
             <div class="form-group mb-3">
               <input type="text" class="form-control form-control-lg py-2"  placeholder="Property Name">
             </div>
-            <button type="submit" class="btn btn-lg" style="background:#DADD98; width:100%">GET FREE QUOTE</button>
+            <button type="submit" class="btn btn-lg" name="submit" style="background:#DADD98; width:100%">GET FREE QUOTE</button>
             <div class="mt-2 mb-2">
               By submitting this form, you agree to the <label style="color:red">privacy policy</label> & <label style="color:red">terms and conditions</label>
             </div>
@@ -129,20 +133,25 @@
                     <h3><i class="fa-sharp fa-solid fa-envelope"></i>&nbsp;EMAIL:</h3>
                     <p class="fs-5">111gautamsutar@gmail.com</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-8">
                     <form>
                         <div class="form-group contact-form">
-                         <input type="text" class="form-control form-control-lg" placeholder="Enter Name">
-                         <input type="text" class="form-control form-control-lg my-3" placeholder="Your Email">
-                         <input type="text" class="form-control form-control-lg my-3" placeholder="Your Phone">
-                         <input type="text" class="form-control form-control-lg" placeholder="Your Address/City">
+                         <input type="text" class="form-control form-control-lg" placeholder="Enter Name" id="contactname">
+                         <span style="color:red" id="cnameerror"></span>
+                         <input type="text" class="form-control form-control-lg my-3" placeholder="Your Email" id="contactemail">
+                         <span style="color:red" id="cemailerror"></span>
+                         <input type="text" class="form-control form-control-lg my-3" placeholder="Your Phone" id="contactphone">
+                         <span style="color:red" id="cphoneerror"></span>
+                         <input type="text" class="form-control form-control-lg my-3" placeholder="Your Address/City" id="contactaddress">
+                         <span style="color:red" id="caddresserror"></span>
+                         <textarea class="form-control form-control-lg py-3" rows="5" placeholder="Message*" id="textmsg"></textarea>
+                         <span style="color:red" id="ctextmsgerror"></span>
+                         <button class="btn btn-lg w-100 contact-btn my-3" type="submit" name="submit">Send Message</button>    
                         </div>
                       </form>
                 </div>
-                <div class="col-md-4 contact-form">
-                    <textarea class="form-control form-control-lg py-3" rows="5" placeholder="Message*"></textarea>
-                    <a href="#" role="button" class="btn btn-lg w-100 contact-btn my-2 ">Send Message</a>    
-                </div>            
+                
+                    
             </div><!--first row ends-->
             <div class="row">
                 <div class="col-md">
@@ -208,5 +217,6 @@
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>
